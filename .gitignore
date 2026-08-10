@@ -1,0 +1,48 @@
+# Strict Sanctuary Guard - Git Ignored Private Folders
+/private/
+/private/*
+
+# Local development environment secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.json
+
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Logs and databases
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.sqlite
+*.db
+
+# Operating System specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build and IDE files
+dist/
+build/
+.next/
+out/
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
