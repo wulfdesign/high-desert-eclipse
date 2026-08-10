@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: FilmFreeway Ingest & Featured Quest Reviews (v0.1.4)
+# 📁 Chat Hand-Off: Kremfest 2018, 2019 & 2025 Lineup History (v0.1.5)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **FILMFREEWAY & TESTIMONIAL BLOCK WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **KREMFEST LINEUP & GEEKGIRLCON LORE WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **FilmFreeway Ingest:** Mined `https://filmfreeway.com/LarryJames` into `private/docs/filmfreeway_and_chat_logs_lore.md`.
-2. **Featured Reviewer Card:** Injected 5-star Meta Quest Store user testimonial card into `index.html`.
+1. **Kremfest 2025 Doc Ingested:** Ingested Google Doc press materials into `private/docs/filmfreeway_and_chat_logs_lore.md`.
+2. **Kremfest Heritage Card:** Updated `index.html` featuring Kremfest XR Showcase participation across 2018, 2019, and 2025.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

@@ -9,7 +9,7 @@ DO NOT mark any task as done (🏆 or [x]) until the Human-in-the-Loop (Magus Wu
 * **Status:** 🛠️ (In Progress) | 🧪 (Ready for QA) | 🧠 (HITL Action Needed) | 🩹 (Tech Debt) | 🏆 (Verified/Done)
 * **Attribution:** 🐈 (Hermes) | 🦞 (MugWort)
 
-**Version:** v0.1.4 (FilmFreeway & Reviews Featured 📋)
+**Version:** v0.1.5 (Kremfest Lineup Heritage Integrated 📋)
 
 ---
 

@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.4 (FilmFreeway & Quest 5-Star Reviews Integrated 🚀)
+**Current Version:** v0.1.5 (Kremfest 2018, 2019 & 2025 Lineup Heritage Integrated 🚀)
 
 **Operator:** Magus Wulf
 

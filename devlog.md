@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-10 16:47] - v0.1.5: Kremfest 2018, 2019 & 2025 Lineup History Integrated 🚀🎬**
+
+📝 **Summary**
+1. **Kremfest 2025 Doc Ingestion:** Ingested Google Doc `KremfestXR Showcase 2025` and archived `UpLiftVR-Studios-High-Desert-Eclipse-at-GeekGirlCon-Newsletter.txt` into `private/docs/` (v0.1.4 sub-repo).
+2. **Festival Lineup Upgrade:** Updated `index.html` featuring headlining Kremfest XR Showcase participation across 2018, 2019, and 2025. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 16:41] - v0.1.4: FilmFreeway Ingest & Meta Quest 5-Star Reviews Featured 🚀⭐**
 
 📝 **Summary**
