@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.1 (WebXR & Eclipse 2026 Countdown Landing Page Live 🚀)
+**Current Version:** v0.1.3 (SIFF Festival Lore, Press Kit & Local Server Integration 🚀)
 
 **Operator:** Magus Wulf
 

@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: High Desert Eclipse WebXR Landing Page Live (v0.1.1)
+# 📁 Chat Hand-Off: Press Kit Lore & Local Server Added (v0.1.3)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **LANDING PAGE & PRIVATE REPO WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **LOCAL SERVER & PRESS KIT LORE WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Public WebXR Landing Page (`index.html`):** Created full responsive landing page featuring Total Solar Eclipse 2026 live countdown timer, embedded YouTube 4K 360 player, Meta Quest Store & Itch.io badges, and A-Frame WebXR 360 viewer modal.
-2. **Private Vault Git Sub-Repo (`high-desert-eclipse-private`):** Initialized `projects/high-desert-eclipse/private/` as a distinct independent Git repository with custom `.gitignore` masking large media files, asset pointers, and lore documentation (`docs/high_desert_eclipse_lore.md`).
+1. **Local Preview Web Server:** Created `server.py` and `start-server.bat` (running on `http://localhost:3008`) allowing 1-click preview of the GitHub Pages landing site.
+2. **Press Kit & SIFF Lore Ingested:** Extracted Google Doc press kit data into `private/docs/press_kit.md` and updated `index.html` with accurate Ochoco National Forest location details and SIFF VR-Zone exhibition history.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)
