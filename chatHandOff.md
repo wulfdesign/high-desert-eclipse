@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: Press Kit Lore & Local Server Added (v0.1.3)
+# 📁 Chat Hand-Off: FilmFreeway Ingest & Featured Quest Reviews (v0.1.4)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **LOCAL SERVER & PRESS KIT LORE WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **FILMFREEWAY & TESTIMONIAL BLOCK WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Local Preview Web Server:** Created `server.py` and `start-server.bat` (running on `http://localhost:3008`) allowing 1-click preview of the GitHub Pages landing site.
-2. **Press Kit & SIFF Lore Ingested:** Extracted Google Doc press kit data into `private/docs/press_kit.md` and updated `index.html` with accurate Ochoco National Forest location details and SIFF VR-Zone exhibition history.
+1. **FilmFreeway Ingest:** Mined `https://filmfreeway.com/LarryJames` into `private/docs/filmfreeway_and_chat_logs_lore.md`.
+2. **Featured Reviewer Card:** Injected 5-star Meta Quest Store user testimonial card into `index.html`.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

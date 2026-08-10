@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.3 (SIFF Festival Lore, Press Kit & Local Server Integration 🚀)
+**Current Version:** v0.1.4 (FilmFreeway & Quest 5-Star Reviews Integrated 🚀)
 
 **Operator:** Magus Wulf
 

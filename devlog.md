@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-10 16:41] - v0.1.4: FilmFreeway Ingest & Meta Quest 5-Star Reviews Featured 🚀⭐**
+
+📝 **Summary**
+1. **FilmFreeway & Chat Mining:** Mined `https://filmfreeway.com/LarryJames` and workspace chat logs into `private/docs/filmfreeway_and_chat_logs_lore.md` (v0.1.3 sub-repo).
+2. **Featured Review Block:** Added a glassmorphic testimonial card on `index.html` featuring glowing Meta Quest Store user reviews (*“Majestic but also chill! A once-in-a-lifetime experience...”*). 🐈 🛠️
+
+---
+
 ### **[2026-08-10 16:34] - v0.1.3: Press Kit Ingestion, SIFF Festival Lore & Local Server Added 🚀🎬**
 
 📝 **Summary**
