@@ -1,10 +1,17 @@
 # **🚀 High Desert Eclipse - Devlog**
 
 > **Legend:**
-> 🚀 (Release/Major) | 🛠️ (Work Done) | 🧪 (Aligned/QA) | 🩹 (Fix) | 🧹 (Cleanup) | 📦 (Consolidation)
+> 🚀 (Release/Major) | 🛠️ (Work Done) | 🛠️ (Work Done) | 🧪 (Aligned/QA) | 🩹 (Fix) | 🧹 (Cleanup) | 📦 (Consolidation)
 > 🐈 (Hermes) | 🦞 (MugWort) | 🌌 (Portal) | 🛡️ (Security) | 👔 (The Herald)
 
 **⚠️ INSTRUCTIONS:** Always insert new entries **BELOW** this header block and **ABOVE** the previous entry. Maintain the alchemical formatting.
+
+---
+
+### **[2026-08-10 16:50] - v0.1.6: SIFF VR-Zone Distinction & Historical Accuracy Refined 🩹🎬**
+
+📝 **Summary**
+1. **Festival Accuracy Refinement:** Updated `index.html` and `private/docs/press_kit.md` to precisely distinguish that sister project *UpLiftVR Maiden Flight* premiered at SIFF VR-Zone, while *High Desert Eclipse* premiered at Kremfest (2018, 2019, 2025), Tacoma Film Festival, STIFF, and GeekGirlCon. 🐈 🩹
 
 ---
 

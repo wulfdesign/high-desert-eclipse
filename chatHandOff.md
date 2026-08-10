@@ -1,14 +1,13 @@
-# 📁 Chat Hand-Off: Kremfest 2018, 2019 & 2025 Lineup History (v0.1.5)
+# 📁 Chat Hand-Off: Festival & SIFF Distinction Accuracy Refined (v0.1.6)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **KREMFEST LINEUP & GEEKGIRLCON LORE WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **HISTORICAL ACCURACY WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Kremfest 2025 Doc Ingested:** Ingested Google Doc press materials into `private/docs/filmfreeway_and_chat_logs_lore.md`.
-2. **Kremfest Heritage Card:** Updated `index.html` featuring Kremfest XR Showcase participation across 2018, 2019, and 2025.
+1. **SIFF VR-Zone Distinction Corrected:** Refined `index.html` and `private/docs/press_kit.md` to accurately denote that sister project *UpLiftVR Maiden Flight* premiered at SIFF VR-Zone, while *High Desert Eclipse* premiered at Kremfest (2018, 2019, 2025), Tacoma Film Festival, STIFF, and GeekGirlCon.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)
