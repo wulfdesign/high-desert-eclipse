@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.0 (Genesis Phase 📋)
+**Current Version:** v0.1.1 (WebXR & Eclipse 2026 Countdown Landing Page Live 🚀)
 
 **Operator:** Magus Wulf
 

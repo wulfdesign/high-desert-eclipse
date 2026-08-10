@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Desert Eclipse - 360° VR Experience & Total Solar Eclipse Portal</title>
+    <meta name="description" content="Experience the 2017 Total Solar Eclipse in 360° VR filmed in the Oregon High Desert. Track the upcoming 2026 Total Solar Eclipse and launch WebXR in your VR headset.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <!-- A-Frame for WebXR 360 Sphere Support -->
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <style>
+        :root {
+            --bg-dark: #07090e;
+            --card-bg: rgba(18, 22, 34, 0.75);
+            --card-border: rgba(255, 180, 50, 0.2);
+            --accent-gold: #ffb733;
+            --accent-corona: #ffe89e;
+            --accent-cyan: #00f0ff;
+            --text-main: #f0f4f8;
+            --text-muted: #94a3b8;
+            --font-title: 'Outfit', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(255, 183, 51, 0.15), transparent 60%),
+                radial-gradient(circle at 80% 80%, rgba(0, 240, 255, 0.08), transparent 50%);
+            min-height: 100vh;
+        }
+
+        /* Header Navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            font-size: 1.8rem;
+            filter: drop-shadow(0 0 10px var(--accent-gold));
+        }
+
+        .logo-title {
+            font-family: var(--font-title);
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: 0.05em;
+            background: linear-gradient(135deg, #fff 0%, var(--accent-gold) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-gold);
+        }
+
+        /* Hero Section */
+        .hero {
+            max-width: 1200px;
+            margin: 3rem auto 2rem;
+            padding: 0 1.5rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .badge-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            background: rgba(255, 183, 51, 0.12);
+            border: 1px solid rgba(255, 183, 51, 0.3);
+            color: var(--accent-gold);
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        h1 {
+            font-family: var(--font-title);
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.2rem;
+            background: linear-gradient(180deg, #ffffff 30%, var(--accent-corona) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(255, 183, 51, 0.3);
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+            color: var(--text-muted);
+            max-width: 780px;
+            margin: 0 auto 2.5rem;
+        }
+
+        /* 2026 Eclipse Countdown Banner */
+        .countdown-banner {
+            max-width: 900px;
+            margin: 0 auto 3.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 183, 51, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .countdown-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), var(--accent-cyan), transparent);
+        }
+
+        .countdown-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.2rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .countdown-title {
+            font-family: var(--font-title);
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--accent-gold);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .countdown-target {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .countdown-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .countdown-box {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .countdown-num {
+            font-family: var(--font-title);
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 900;
+            color: #fff;
+            line-height: 1;
+        }
+
+        .countdown-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-top: 0.3rem;
+        }
+
+        /* Action Buttons Grid */
+        .cta-grid {
+            display: flex;
+            justify-content: center;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+            margin-bottom: 4rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.9rem 1.8rem;
+            border-radius: 12px;
+            font-family: var(--font-title);
+            font-weight: 700;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #ff8c00 100%);
+            color: #07090e;
+            box-shadow: 0 4px 20px rgba(255, 183, 51, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 183, 51, 0.6);
+        }
+
+        .btn-cyan {
+            background: rgba(0, 240, 255, 0.12);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(0, 240, 255, 0.4);
+        }
+
+        .btn-cyan:hover {
+            background: rgba(0, 240, 255, 0.25);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0, 240, 255, 0.3);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.06);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-3px);
+        }
+
+        /* Content Sections */
+        .section-container {
+            max-width: 1100px;
+            margin: 0 auto 5rem;
+            padding: 0 1.5rem;
+        }
+
+        .section-title {
+            font-family: var(--font-title);
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        /* Video Showcase Card */
+        .video-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 1.5rem;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+            margin-bottom: 4rem;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .video-caption {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .vr-tip-badge {
+            background: rgba(255, 183, 51, 0.15);
+            color: var(--accent-gold);
+            padding: 0.25rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Narrative Story Grid */
+        .story-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .story-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 1.8rem;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .story-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--card-border);
+        }
+
+        .story-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .story-title {
+            font-family: var(--font-title);
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: #fff;
+        }
+
+        .story-text {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        /* WebXR Modal Container */
+        #webxr-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 9999;
+        }
+
+        #close-modal-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10000;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 3rem 1.5rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .countdown-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo-container">
+            <span class="logo-icon">🕶️</span>
+            <span class="logo-title">HIGH DESERT ECLIPSE</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#countdown" class="nav-link">2026 Countdown</a>
+            <a href="#watch" class="nav-link">Watch 360°</a>
+            <a href="#story" class="nav-link">Expedition Story</a>
+            <a href="#stores" class="nav-link">VR Stores</a>
+        </nav>
+    </header>
+
+    <!-- Main Hero -->
+    <main>
+        <section class="hero">
+            <div class="badge-pill">
+                <span>🌑 Total Solar Eclipse VR Documentary & WebXR</span>
+            </div>
+            <h1>Experience Cosmic Shadow in 360° VR</h1>
+            <p class="hero-subtitle">
+                Filmed on a remote hilltop in the Oregon high desert. A crowdfunded journey capturing the awe of total solar eclipse in high-definition VR—now updated for the 2026 Total Solar Eclipse.
+            </p>
+
+            <!-- 2026 Eclipse Countdown Banner -->
+            <div class="countdown-banner" id="countdown">
+                <div class="countdown-header">
+                    <div class="countdown-title">
+                        <span>☀️ TOTAL SOLAR ECLIPSE 2026 COUNTDOWN</span>
+                    </div>
+                    <div class="countdown-target">Target: August 12, 2026 (Totality Path: Iceland, Greenland, Spain)</div>
+                </div>
+                <div class="countdown-grid">
+                    <div class="countdown-box">
+                        <div class="countdown-num" id="cd-days">00</div>
+                        <div class="countdown-label">Days</div>
+                    </div>
+                    <div class="countdown-box">
+                        <div class="countdown-num" id="cd-hours">00</div>
+                        <div class="countdown-label">Hours</div>
+                    </div>
+                    <div class="countdown-box">
+                        <div class="countdown-num" id="cd-mins">00</div>
+                        <div class="countdown-label">Minutes</div>
+                    </div>
+                    <div class="countdown-box">
+                        <div class="countdown-num" id="cd-secs">00</div>
+                        <div class="countdown-label">Seconds</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Buttons -->
+            <div class="cta-grid" id="stores">
+                <a href="https://www.meta.com/experiences/high-desert-eclipse/5486799141392429/" target="_blank" class="btn btn-primary">
+                    <span>🥽 Meta Quest Store</span>
+                </a>
+                <button onclick="launchWebXRModal()" class="btn btn-cyan">
+                    <span>🥽 Launch WebXR 360 Viewer</span>
+                </button>
+                <a href="https://UpLiftVR.itch.io" target="_blank" class="btn btn-secondary">
+                    <span>🎮 Itch.io Release</span>
+                </a>
+                <a href="https://youtu.be/fzcFw_33iC8?si=u7qk3s7O9RGPyAty" target="_blank" class="btn btn-secondary">
+                    <span>▶️ YouTube 4K 360</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- 360 Video Showcase Section -->
+        <section class="section-container" id="watch">
+            <h2 class="section-title">
+                <span>📹 4K 360° Cinematic Experience</span>
+            </h2>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/fzcFw_33iC8?rel=0" title="High Desert Eclipse 360 Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-caption">
+                    <span>Drag inside video frame to look 360 degrees in any direction.</span>
+                    <span class="vr-tip-badge">💡 Tip: For VR headset streaming, set playback speed to 0.25x for 4K smoothness</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story & Chronicle Grid -->
+        <section class="section-container" id="story">
+            <h2 class="section-title">
+                <span>📖 The Crowdfunded Expedition</span>
+            </h2>
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-icon">🏜️</div>
+                    <h3 class="story-title">The Oregon High Desert</h3>
+                    <p class="story-text">
+                        Armed with custom 360-degree cinema rigs, solar panels, and generators, our crew hauled gear up an isolated Oregon hilltop to film the historic 2017 total solar eclipse.
+                    </p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">💻</div>
+                    <h3 class="story-title">Herculean Post-Production</h3>
+                    <p class="story-text">
+                        Hundreds of hours of spherical stitching, color grading desert lighting transitions, and optimizing frame rates to bring fluid 360 rendering to standalone VR headsets.
+                    </p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">🏆</div>
+                    <h3 class="story-title">Festivals to Store Release</h3>
+                    <p class="story-text">
+                        After years of film festival screenings and VR showcase exhibitions, High Desert Eclipse reached official release on the Meta Quest Store & itch.io.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- WebXR 360 Sphere Modal -->
+    <div id="webxr-modal">
+        <button id="close-modal-btn" onclick="closeWebXRModal()">✕ Close WebXR View</button>
+        <a-scene embedded style="height: 100%; width: 100%;">
+            <a-sky src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Solar_eclipse_1999_4_NR.jpg/1920px-Solar_eclipse_1999_4_NR.jpg" rotation="0 -90 0"></a-sky>
+            <a-entity camera look-controls></a-entity>
+        </a-scene>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 UpLiftVR Studios / Wulf Design Studios. Created by Larry James.</p>
+        <p style="margin-top: 0.5rem;">
+            <a href="https://UpLiftVR.itch.io" target="_blank">Itch.io</a> • 
+            <a href="https://www.meta.com/experiences/high-desert-eclipse/5486799141392429/" target="_blank">Meta Quest Store</a> • 
+            <a href="https://youtu.be/fzcFw_33iC8" target="_blank">YouTube 360</a>
+        </p>
+    </footer>
+
+    <!-- JavaScript logic for Countdown & WebXR Modal -->
+    <script>
+        // Total Solar Eclipse Target Date: August 12, 2026 17:46:00 UTC
+        const targetDate = new Date('2026-08-12T17:46:00Z').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            if (distance < 0) {
+                document.getElementById('cd-days').innerText = "00";
+                document.getElementById('cd-hours').innerText = "00";
+                document.getElementById('cd-mins').innerText = "00";
+                document.getElementById('cd-secs').innerText = "00";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('cd-days').innerText = days < 10 ? '0' + days : days;
+            document.getElementById('cd-hours').innerText = hours < 10 ? '0' + hours : hours;
+            document.getElementById('cd-mins').innerText = minutes < 10 ? '0' + minutes : minutes;
+            document.getElementById('cd-secs').innerText = seconds < 10 ? '0' + seconds : seconds;
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        function launchWebXRModal() {
+            document.getElementById('webxr-modal').style.display = 'block';
+        }
+
+        function closeWebXRModal() {
+            document.getElementById('webxr-modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
