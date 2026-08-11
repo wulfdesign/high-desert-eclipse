@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.9 (Public Landing Page Story Cleaned & Refined 🚀)
+**Current Version:** v0.1.10 (Often Frame-by-Frame & Twilight Precision Refined 🚀)
 
 **Operator:** Magus Wulf
 

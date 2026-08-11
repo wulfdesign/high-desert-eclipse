@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: Landing Page Story Cleaned & Refined (v0.1.9)
+# 📁 Chat Hand-Off: Often Frame-by-Frame & Twilight Precision Refined (v0.1.10)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **CLEAN LANDING PAGE STORY WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **TWILIGHT & COLOR GRADING ACCURACY WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Public Story Refinement:** Updated `index.html` to remove the barking dogs reference while retaining Larry & Julia's epic week-long camp in the Ochoco Wilderness.
-2. **Private Lore Intact:** Full expedition accounts remain safely stored in `private/docs/expedition_and_production_lore.md`.
+1. **Color Grading & Lighting Precision:** Refined Card 3 in `index.html` to specify *often frame-by-frame* color grading and balanced exposure for *eerie desert twilight*.
+2. **Private Lore Synchronized:** Updated `private/docs/expedition_and_production_lore.md`.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

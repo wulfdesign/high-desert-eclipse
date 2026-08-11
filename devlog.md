@@ -1,10 +1,17 @@
 # **🚀 High Desert Eclipse - Devlog**
 
 > **Legend:**
-> 🚀 (Release/Major) | 🛠️ (Work Done) | 🛠️ (Work Done) | 🧪 (Aligned/QA) | 🩹 (Fix) | 🧹 (Cleanup) | 📦 (Consolidation)
+> 🚀 (Release/Major) | 🛠️ (Work Done) | 🧪 (Aligned/QA) | 🩹 (Fix) | 🧹 (Cleanup) | 📦 (Consolidation)
 > 🐈 (Hermes) | 🦞 (MugWort) | 🌌 (Portal) | 🛡️ (Security) | 👔 (The Herald)
 
 **⚠️ INSTRUCTIONS:** Always insert new entries **BELOW** this header block and **ABOVE** the previous entry. Maintain the alchemical formatting.
+
+---
+
+### **[2026-08-10 17:16] - v0.1.10: Often Frame-by-Frame & Desert Twilight Precision Refined 🩹🎨**
+
+📝 **Summary**
+1. **Story Card Precision Refinement:** Updated `index.html` and `private/docs/expedition_and_production_lore.md` (v0.1.9 sub-repo) to specify that post-production involved *often frame-by-frame* color grading and balanced exposure between the 360° horizon sunrise and the *eerie desert twilight* (rather than pitch darkness). 🐈 🩹
 
 ---
 
