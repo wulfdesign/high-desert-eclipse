@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.39 (SEO & AI Search Discovery Tags + Footer Title Updated 🚀)
+**Current Version:** v0.1.41 (Google Forms Lead Capture Integration Complete 🚀)
 
 **Operator:** Magus Wulf
 
