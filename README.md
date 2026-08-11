@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.16 (Exact Video Asset Filename Standardized 🚀)
+**Current Version:** v0.1.17 (Autoplay YouTube Short Teaser & Dual Video Showcase Integrated 🚀)
 
 **Operator:** Magus Wulf
 

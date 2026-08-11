@@ -319,6 +319,37 @@
             border: 0;
         }
 
+        .video-showcase-grid {
+            display: grid;
+            grid-template-columns: 340px 1fr;
+            gap: 1.5rem;
+            align-items: start;
+        }
+
+        @media (max-width: 880px) {
+            .video-showcase-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .shorts-wrapper {
+            position: relative;
+            padding-bottom: 177.77%; /* 9:16 vertical ratio for YouTube Shorts */
+            height: 0;
+            border-radius: 14px;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .shorts-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
         .video-caption {
             margin-top: 1rem;
             font-size: 0.9rem;
@@ -514,30 +545,49 @@
             </p>
         </div>
 
-        <!-- 360 Video Showcase Section -->
+        <!-- 360 Video Showcase & Teaser Section -->
         <section class="section-container" id="watch">
             <h2 class="section-title">
-                <span>📹 4K 360° Cinematic Experience</span>
+                <span>📹 Video Showcase & 4K 360° Experience</span>
             </h2>
-            <div class="video-card">
-                <div class="video-wrapper">
-                    <iframe src="https://www.youtube.com/embed/fzcFw_33iC8?rel=0" title="High Desert Eclipse 360 Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="video-showcase-grid">
+                <!-- Autoplay Short Teaser Card -->
+                <div class="video-card" style="margin-bottom: 0;">
+                    <div style="font-family: var(--font-title); font-size: 0.95rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.75rem; text-align: center;">
+                        ⚡ 360° Teaser Reel
+                    </div>
+                    <div class="shorts-wrapper">
+                        <iframe src="https://www.youtube.com/embed/9Xs3GKE8XIo?autoplay=1&mute=1&loop=1&playlist=9Xs3GKE8XIo&rel=0" title="High Desert Eclipse 360 Short Teaser" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-caption" style="text-align: center; margin-top: 0.75rem;">
+                        <span>🔥 Autoplay Preview Teaser</span>
+                    </div>
                 </div>
-                <div class="video-caption">
-                    <span>💡 Tip: Set video quality to 4K / 2160p inside the player settings for peak clarity.</span>
-                </div>
-                
-                <!-- Explicit 360 Viewing Instruction Note -->
-                <div style="background: rgba(78, 205, 196, 0.1); border: 1px solid var(--accent-cyan); border-radius: 12px; padding: 1.2rem 1.5rem; margin-top: 1rem; font-size: 0.95rem; line-height: 1.6; text-align: center; color: var(--text-main);">
-                    <strong style="color: var(--accent-cyan); display: block; font-size: 1.05rem; margin-bottom: 0.4rem;">ℹ️ YouTube 360° Interactive Panning & VR Guidance</strong>
-                    Standard embedded YouTube web players restrict 360° mouse-drag panning on certain desktop browsers. For full 360° interactive panning and VR headset playback:
-                    <div style="margin-top: 0.9rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
-                        <a href="https://youtu.be/fzcFw_33iC8?si=u7qk3s7O9RGPyAty" target="_blank" class="btn btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">
-                            <span>▶️ Watch in Full 360° directly on YouTube</span>
-                        </a>
-                        <button onclick="launchWebXRModal()" class="btn btn-cyan" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">
-                            <span>🥽 Launch WebXR 360 Viewer</span>
-                        </button>
+
+                <!-- 4K 360 Cinematic Feature Card -->
+                <div class="video-card" style="margin-bottom: 0;">
+                    <div style="font-family: var(--font-title); font-size: 0.95rem; font-weight: 700; color: var(--accent-cyan); margin-bottom: 0.75rem;">
+                        📹 Full 4K 360° Feature Experience
+                    </div>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/fzcFw_33iC8?rel=0" title="High Desert Eclipse 360 Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-caption">
+                        <span>💡 Tip: Set video quality to 4K / 2160p inside the player settings for peak clarity.</span>
+                    </div>
+                    
+                    <!-- Explicit 360 Viewing Instruction Note -->
+                    <div style="background: rgba(78, 205, 196, 0.1); border: 1px solid var(--accent-cyan); border-radius: 12px; padding: 1rem 1.2rem; margin-top: 1rem; font-size: 0.9rem; line-height: 1.5; text-align: center; color: var(--text-main);">
+                        <strong style="color: var(--accent-cyan); display: block; font-size: 1rem; margin-bottom: 0.3rem;">ℹ️ YouTube 360° Interactive Panning & VR Guidance</strong>
+                        Standard embedded YouTube web players restrict 360° mouse-drag panning on certain desktop browsers. For full 360° interactive panning and VR headset playback:
+                        <div style="margin-top: 0.8rem; display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap;">
+                            <a href="https://youtu.be/fzcFw_33iC8?si=u7qk3s7O9RGPyAty" target="_blank" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                                <span>▶️ Watch in Full 360° on YouTube</span>
+                            </a>
+                            <button onclick="launchWebXRModal()" class="btn btn-cyan" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                                <span>🥽 Launch WebXR 360 Viewer</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

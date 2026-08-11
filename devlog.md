@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 17:48] - v0.1.17: Autoplay YouTube Short Teaser & Dual Video Showcase Deployed 🚀⚡**
+
+📝 **Summary**
+1. **Dual Video Showcase Layout:** Updated `index.html` (v0.1.17) with a responsive 2-column grid featuring a vertical autoplay muted YouTube Short teaser reel (`9Xs3GKE8XIo`) alongside the main 4K 360° feature experience. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 17:38] - v0.1.16: Exact Video Asset Filename Standardized 🚀🎬**
 
 📝 **Summary**

@@ -1,13 +1,13 @@
-# 📁 Chat Hand-Off: Exact Video Asset Filename Standardized (v0.1.16)
+# 📁 Chat Hand-Off: Autoplay YouTube Short Teaser & Dual Video Showcase Deployed (v0.1.17)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **EXACT VIDEO FILENAME WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **AUTOPLAY SHORT TEASER WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Video Asset Link Standardized:** Updated `index.html` and `assets/README.md` to point directly to `assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4`.
+1. **Dual Video Showcase Layout:** Built a 2-column video showcase in `index.html` featuring a vertical autoplay muted YouTube Short teaser (`9Xs3GKE8XIo`) alongside the main 4K 360° feature experience.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)
