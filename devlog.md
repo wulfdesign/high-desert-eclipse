@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-11 13:33] - v0.1.29: Directors Credit & Exact GPS Location Lore Updated 🚀🗺️**
+
+📝 **Summary**
+1. **Director Attribution:** Updated `index.html` (v0.1.29) gallery card 2 copy to explicitly credit "Directors L. James & J. Jackson".
+2. **Topographic & GPS Verification:** Verified user geo marker `44°42'58.3"N 120°16'50.3"W` (~5 mi NW of Painted Hills, ~12 mi NW of Mitchell, ~25 mi E of Madras). Confirmed it lies directly within the Ochoco Mountain Range / Ochoco Basin & Sutton Mountain high-desert public lands. Logged into `private/docs/expedition_and_production_lore.md` (v0.1.19 sub-repo). 🐈 🛠️
+
+---
+
 ### **[2026-08-11 13:01] - v0.1.28: Reddit Dump Lore & Marketing Agency Private Vault Spooled Up 🚀🔒**
 
 📝 **Summary**

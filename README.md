@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.28 (Reddit Dump Lore & Marketing Agency Private Vault Spooled Up 🚀)
+**Current Version:** v0.1.29 (Directors Credit & Exact GPS Location Lore Updated 🚀)
 
 **Operator:** Magus Wulf
 
