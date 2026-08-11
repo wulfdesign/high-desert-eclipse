@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.30 (Interactive Google Maps Camera Outcrop & Topography Embedded 🚀)
+**Current Version:** v0.1.31 (Boondock Campsite Map & Audience Screening Lore Vaulted 🚀)
 
 **Operator:** Magus Wulf
 
