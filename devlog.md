@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 17:24] - v0.1.13: YouTube 360° Viewing Guidance & Direct Launch Buttons Deployed 🚀📹**
+
+📝 **Summary**
+1. **360° Playback Guidance:** Added a glassmorphic guidance card below the embedded YouTube player on `index.html` (v0.1.13) explaining that standard desktop browsers restrict 360° mouse-drag inside iframe embeds, providing 1-click buttons to open the video directly in YouTube for full WebGL panning or launch the WebXR 360 modal. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 17:20] - v0.1.12: Explicit UpLiftVR.itch.io Store Links Standardized 🚀🏷️**
 
 📝 **Summary**

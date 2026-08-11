@@ -524,8 +524,21 @@
                     <iframe src="https://www.youtube.com/embed/fzcFw_33iC8?rel=0" title="High Desert Eclipse 360 Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="video-caption">
-                    <span>Drag inside video frame to look 360 degrees in any direction.</span>
-                    <span class="vr-tip-badge">💡 Tip: For VR headset streaming, set playback speed to 0.25x for 4K smoothness</span>
+                    <span>💡 Tip: Set video quality to 4K / 2160p inside the player settings for peak clarity.</span>
+                </div>
+                
+                <!-- Explicit 360 Viewing Instruction Note -->
+                <div style="background: rgba(78, 205, 196, 0.1); border: 1px solid var(--accent-cyan); border-radius: 12px; padding: 1.2rem 1.5rem; margin-top: 1rem; font-size: 0.95rem; line-height: 1.6; text-align: center; color: var(--text-main);">
+                    <strong style="color: var(--accent-cyan); display: block; font-size: 1.05rem; margin-bottom: 0.4rem;">ℹ️ YouTube 360° Interactive Panning & VR Guidance</strong>
+                    Standard embedded YouTube web players restrict 360° mouse-drag panning on certain desktop browsers. For full 360° interactive panning and VR headset playback:
+                    <div style="margin-top: 0.9rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+                        <a href="https://youtu.be/fzcFw_33iC8?si=u7qk3s7O9RGPyAty" target="_blank" class="btn btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">
+                            <span>▶️ Watch in Full 360° directly on YouTube</span>
+                        </a>
+                        <button onclick="launchWebXRModal()" class="btn btn-cyan" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">
+                            <span>🥽 Launch WebXR 360 Viewer</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

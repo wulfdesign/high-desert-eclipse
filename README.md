@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.12 (Explicit UpLiftVR.itch.io Store Links Standardized 🚀)
+**Current Version:** v0.1.13 (YouTube 360° Viewing Guidance & Interactive WebXR Integration 🚀)
 
 **Operator:** Magus Wulf
 

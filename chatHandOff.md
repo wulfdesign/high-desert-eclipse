@@ -1,13 +1,13 @@
-# 📁 Chat Hand-Off: Explicit UpLiftVR.itch.io Store Links Standardized (v0.1.12)
+# 📁 Chat Hand-Off: YouTube 360° Viewing Guidance & Direct Launch Buttons Deployed (v0.1.13)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **UPLIFTVR.ITCH.IO LINKS WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **360° PLAYBACK GUIDANCE WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Store Links Standardized:** Updated button labels, footer links, and campaign text in `index.html` and `private/campaign.md` to explicitly display `UpLiftVR.itch.io`.
+1. **360° Guidance Notice Block:** Added a glassmorphic guidance card directly below the YouTube video card on `index.html` explaining desktop browser iframe 360° panning restrictions and offering 1-click buttons to open directly on YouTube or launch WebXR 360 mode.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)
