@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.19 (Moon Shadow Racing & Hilltop Countryside Overlook Narrative Refined 🚀)
+**Current Version:** v0.1.20 (April 2024 Director's Journal Archive Integrated 🚀)
 
 **Operator:** Magus Wulf
 
