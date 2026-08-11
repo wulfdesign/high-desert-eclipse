@@ -578,7 +578,11 @@
     <div id="webxr-modal">
         <button id="close-modal-btn" onclick="closeWebXRModal()">✕ Close WebXR View</button>
         <a-scene embedded style="height: 100%; width: 100%;">
-            <a-sky src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Solar_eclipse_1999_4_NR.jpg/1920px-Solar_eclipse_1999_4_NR.jpg" rotation="0 -90 0"></a-sky>
+            <a-assets>
+                <video id="eclipse-video-360" src="assets/high_desert_eclipse_360.mp4" loop crossorigin="anonymous" playsinline webkit-playsinline></video>
+                <img id="eclipse-fallback-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Solar_eclipse_1999_4_NR.jpg/1920px-Solar_eclipse_1999_4_NR.jpg">
+            </a-assets>
+            <a-videosphere src="#eclipse-video-360" rotation="0 -90 0"></a-videosphere>
             <a-entity camera look-controls></a-entity>
         </a-scene>
     </div>
@@ -628,10 +632,18 @@
 
         function launchWebXRModal() {
             document.getElementById('webxr-modal').style.display = 'block';
+            const videoEl = document.getElementById('eclipse-video-360');
+            if (videoEl) {
+                videoEl.play().catch(err => console.log("360 Video autoplay waiting for interaction:", err));
+            }
         }
 
         function closeWebXRModal() {
             document.getElementById('webxr-modal').style.display = 'none';
+            const videoEl = document.getElementById('eclipse-video-360');
+            if (videoEl) {
+                videoEl.pause();
+            }
         }
     </script>
 </body>

@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.14 (Desert Icon Updated & 360 Embed Protocol Clarified 🚀)
+**Current Version:** v0.1.15 (Assets Directory & Native 360 Video Player Deployed 🚀)
 
 **Operator:** Magus Wulf
 

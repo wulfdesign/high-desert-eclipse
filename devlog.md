@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-10 17:35] - v0.1.15: Assets Directory & Native 360 Video Player Deployed 🚀📦**
+
+📝 **Summary**
+1. **Assets Directory & LFS Rules:** Created `assets/` directory and `assets/README.md` clarifying that Git LFS is NOT required for files under 50 MB / 100 MB (like the 10.5 MB `.mp4`).
+2. **Native 360 Video Player:** Configured A-Frame `<a-videosphere>` inside `index.html` (v0.1.15) to stream `assets/high_desert_eclipse_360.mp4` natively with full WebGL 360° mouse dragging and VR headset support. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 17:28] - v0.1.14: Desert Icon Updated & 360 Embed Limits Clarified 🚀🏜️**
 
 📝 **Summary**
