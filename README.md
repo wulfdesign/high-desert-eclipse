@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.32 (Desolate Backroads & German Couple Water Gift Lore Integrated 🚀)
+**Current Version:** v0.1.33 (WebXR Stream Quality Notice Added to 360 Video Card 🚀)
 
 **Operator:** Magus Wulf
 

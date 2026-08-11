@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-11 14:20] - v0.1.33: WebXR Stream Quality Notice Added 🚀📹**
+
+📝 **Summary**
+1. **Stream Quality Notice:** Added a gold-accented notice box to Card 1 in `#gallery` on `index.html` (v0.1.33) explaining that the browser preview is compressed (1 frame / 3 sec, 48.6MB) for fast WebXR loading, while the full master edition on Meta Quest Store & Itch.io features smooth 24fps 4K 360° video. 🐈 🛠️
+
+---
+
 ### **[2026-08-11 14:17] - v0.1.32: Desolate Backroads & German Couple Water Gift Lore Integrated 🚀💧**
 
 📝 **Summary**
