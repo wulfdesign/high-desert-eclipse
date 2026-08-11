@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 17:11] - v0.1.8: Larry & Julia's Week-Long Camp & Barking Dogs Story Added 🚀⛺**
+
+📝 **Summary**
+1. **Intimate Expedition Story:** Updated `index.html` and `private/docs/expedition_and_production_lore.md` (v0.1.7 sub-repo) with the intimate filmmaking reality: Larry & Julia camping at the base of the hill for a full week waiting for the eclipse, morning spectators arriving, and dogs barking in frenzy during totality as day turned to pitch blackness. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 17:06] - v0.1.7: Authentic Expedition & Production Story Integrated 🚀🧭**
 
 📝 **Summary**

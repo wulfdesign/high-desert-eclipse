@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.7 (Authentic Expedition & Production Lore Integrated 🚀)
+**Current Version:** v0.1.8 (Larry & Julia Desert Camp Lore Integrated 🚀)
 
 **Operator:** Magus Wulf
 
