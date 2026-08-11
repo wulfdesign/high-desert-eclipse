@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-11 16:38] - v0.1.43: Invisible Honeypot Anti-Spam Trap Deployed 🚀🛡️**
+
+📝 **Summary**
+1. **Honeypot Trap Installed:** Added hidden `<input id="fb-hp" name="website_hp">` field to `#feedback` form in `index.html` (v0.1.43).
+2. **Bot Blocking Logic:** `validateHoneypot()` checks if automated bots filled out the hidden input field, silently blocking spam submissions while keeping 100% friction-free access for real humans. 🐈 🛠️
+
+---
+
 ### **[2026-08-11 16:26] - v0.1.42: Fail-Safe Hidden Iframe Google Form POST Deployed 🚀🎯**
 
 📝 **Summary**

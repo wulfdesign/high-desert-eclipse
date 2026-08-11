@@ -1,15 +1,15 @@
-# 📁 Chat Hand-Off: Hidden Iframe Google Form POST Pattern Deployed (v0.1.42)
+# 📁 Chat Hand-Off: Honeypot Anti-Spam Trap Deployed (v0.1.43)
 
 **Date:** 2026-08-11  
 **Operator:** Magus Wulf  
-**Status:** **FAIL-SAFE FORM POST WAITING FOR QA** 🚀🎯🧪🐈
+**Status:** **HONEYPOT ANTI-SPAM TRAP WAITING FOR QA** 🚀🛡️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Native Hidden Iframe Form POST:** Upgraded `index.html` to deploy a 0-pixel hidden iframe (`hidden_gform`) and native HTML form submission with Google Forms entry names (`entry.1423654106`, `entry.1920408180`, `entry.1077477439`, `entry.403347460`).
-2. **Guaranteed Delivery:** Eliminates CORS fetch restrictions, guaranteeing that browser form POSTs hit Google Forms and stream into Google Sheets while preserving native glassmorphic UI.
-3. **Pushed Live to GitHub:** Pushed `v0.1.42` live to `https://github.com/wulfdesign/high-desert-eclipse.git`.
+1. **Honeypot Anti-Spam Trap:** Added hidden `<input id="fb-hp">` field and `validateHoneypot()` in `index.html`.
+2. **Automated Bot Protection:** Silently blocks web bots that auto-fill hidden form inputs, keeping responses clean with 0 friction for human users.
+3. **Pushed Live to GitHub:** Pushed `v0.1.43` live to `https://github.com/wulfdesign/high-desert-eclipse.git`.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

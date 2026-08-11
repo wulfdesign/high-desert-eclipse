@@ -839,7 +839,9 @@
                     We are currently planning an <strong>AI-Upscaled 8K Remaster</strong>, spatial audio mix, and live virtual planetarium screenings for future eclipses! Let us know what features or screenings you'd like to see next.
                 <!-- Hidden iframe to capture Google Form POST silently -->
                 <iframe name="hidden_gform" id="hidden_gform" style="display:none;" onload="if(window.submittedGForm) { handleGFormSubmitted(); }"></iframe>
-                <form id="fb-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdYE8rfcWS-2OUfZSZn_slyCPFo0D-tDHQ5AOzXgQhoUq8DMA/formResponse" method="POST" target="hidden_gform" onsubmit="window.submittedGForm=true;" style="display: flex; flex-direction: column; gap: 1rem;">
+                <form id="fb-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdYE8rfcWS-2OUfZSZn_slyCPFo0D-tDHQ5AOzXgQhoUq8DMA/formResponse" method="POST" target="hidden_gform" onsubmit="return validateHoneypot();" style="display: flex; flex-direction: column; gap: 1rem;">
+                    <!-- Honeypot anti-spam trap (invisible to humans, catches automated bots) -->
+                    <input type="text" id="fb-hp" name="website_hp" style="display:none !important;" tabindex="-1" autocomplete="off">
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
                         <input type="text" id="fb-name" name="entry.1423654106" placeholder="Your Name or VR Handle" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
                         <input type="email" id="fb-email" name="entry.1920408180" placeholder="Your Email Address" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
@@ -969,6 +971,16 @@
         }
 
         window.submittedGForm = false;
+        function validateHoneypot() {
+            const hpField = document.getElementById('fb-hp');
+            if (hpField && hpField.value !== '') {
+                console.warn("Spam bot submission blocked via Honeypot trap.");
+                return false;
+            }
+            window.submittedGForm = true;
+            return true;
+        }
+
         function handleGFormSubmitted() {
             const successMsg = document.getElementById('fb-success-msg');
             const formEl = document.getElementById('fb-form');
