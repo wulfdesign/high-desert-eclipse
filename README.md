@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.6 (Festival & SIFF Distinction Accuracy Refined 🚀)
+**Current Version:** v0.1.7 (Authentic Expedition & Production Lore Integrated 🚀)
 
 **Operator:** Magus Wulf
 

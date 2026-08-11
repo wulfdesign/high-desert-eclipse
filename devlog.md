@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 17:06] - v0.1.7: Authentic Expedition & Production Story Integrated 🚀🧭**
+
+📝 **Summary**
+1. **Authentic Expedition Story:** Updated `index.html` and `private/docs/expedition_and_production_lore.md` (v0.1.6 sub-repo) with the true expedition lore: Google Earth VR location scouting, maxing out a credit card for Samsung's 4K camera right before totality, low gas/water amidst wildfire smoke, German travelers sharing water, and hundreds of hours of frame-by-frame color grading paired with a tear-jerking musical soundtrack. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 16:50] - v0.1.6: SIFF VR-Zone Distinction & Historical Accuracy Refined 🩹🎬**
 
 📝 **Summary**
