@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: Boondock Campsite Map & Audience Screening Lore Vaulted (v0.1.31)
+# 📁 Chat Hand-Off: German Couple Water Gift & Desolate Drive Lore Integrated (v0.1.32)
 
 **Date:** 2026-08-11  
 **Operator:** Magus Wulf  
-**Status:** **BOONDOCK MAP & SCREENING LORE WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **EXPEDITION STORY EXPANDED WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Boondock Camping Map Saved:** Recorded exact campsite Google Maps link (`https://maps.app.goo.gl/kFtKA6qyTjsFnEVT9`) in `private/docs/expedition_and_production_lore.md`.
-2. **Screening & Audience Lore Added:** Logged Section 8 into private vault covering audience vows to never miss totality again, reliving past totality memories decades later, and Painted Hills gridlock traffic stories.
+1. **Public Landing Page Story Cards:** Updated `index.html` story cards weaving in the desolate highways drive, low fuel/water, wildfire isolation fear, meeting the German couple who shared their water, and the final morning hilltop gathering.
+2. **Private Vault Synchronized:** Updated `private/docs/expedition_and_production_lore.md` with the German couple at the river ranch and backroad trickle.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

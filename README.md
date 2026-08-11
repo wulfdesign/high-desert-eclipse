@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.31 (Boondock Campsite Map & Audience Screening Lore Vaulted 🚀)
+**Current Version:** v0.1.32 (Desolate Backroads & German Couple Water Gift Lore Integrated 🚀)
 
 **Operator:** Magus Wulf
 
