@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 17:13] - v0.1.9: Landing Page Story Cleaned & Refined 🧹🎬**
+
+📝 **Summary**
+1. **Public Story Refinement:** Updated `index.html` to remove the barking dogs reference while retaining Larry & Julia's epic week-long camp in the Ochoco Wilderness. Kept the full barking dogs story preserved in `private/docs/expedition_and_production_lore.md`. 🐈 🧹
+
+---
+
 ### **[2026-08-10 17:11] - v0.1.8: Larry & Julia's Week-Long Camp & Barking Dogs Story Added 🚀⛺**
 
 📝 **Summary**

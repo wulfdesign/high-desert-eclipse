@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: Larry & Julia Desert Camp & Barking Dogs Story Added (v0.1.8)
+# 📁 Chat Hand-Off: Landing Page Story Cleaned & Refined (v0.1.9)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **INTIMATE EXPEDITION LORE WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **CLEAN LANDING PAGE STORY WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Intimate Expedition Story Card:** Updated `index.html` featuring Larry & Julia's week-long camp at the base of the hill waiting for the eclipse, morning spectator arrivals, and dogs barking franticly during totality.
-2. **Deep Lore Document:** Updated `private/docs/expedition_and_production_lore.md`.
+1. **Public Story Refinement:** Updated `index.html` to remove the barking dogs reference while retaining Larry & Julia's epic week-long camp in the Ochoco Wilderness.
+2. **Private Lore Intact:** Full expedition accounts remain safely stored in `private/docs/expedition_and_production_lore.md`.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)
