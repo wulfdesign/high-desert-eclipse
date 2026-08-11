@@ -629,7 +629,7 @@
         <button id="close-modal-btn" onclick="closeWebXRModal()">✕ Close WebXR View</button>
         <a-scene embedded style="height: 100%; width: 100%;">
             <a-assets>
-                <video id="eclipse-video-360" src="assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4" loop crossorigin="anonymous" playsinline webkit-playsinline></video>
+                <video id="eclipse-video-360" src="assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4" preload="none" loop crossorigin="anonymous" playsinline webkit-playsinline></video>
                 <img id="eclipse-fallback-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Solar_eclipse_1999_4_NR.jpg/1920px-Solar_eclipse_1999_4_NR.jpg">
             </a-assets>
             <a-videosphere src="#eclipse-video-360" rotation="0 -90 0"></a-videosphere>

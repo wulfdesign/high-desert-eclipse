@@ -13,12 +13,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
 def run_server():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    socketserver.TCPServer.allow_reuse_address = True
+    socketserver.ThreadingTCPServer.allow_reuse_address = True
     try:
-        with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        with socketserver.ThreadingTCPServer(("", PORT), Handler) as httpd:
             url = f"http://localhost:{PORT}/index.html"
             print(f"==================================================")
-            print(f"  🕶️ High Desert Eclipse WebXR Local Server")
+            print(f"  🕶️ High Desert Eclipse Multi-Threaded WebXR Server")
             print(f"  Serving at: {url}")
             print(f"==================================================")
             webbrowser.open(url)

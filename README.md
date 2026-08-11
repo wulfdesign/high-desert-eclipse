@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.17 (Autoplay YouTube Short Teaser & Dual Video Showcase Integrated 🚀)
+**Current Version:** v0.1.18 (Multi-Threaded HTTP Server & Lazy Video Preload Fixed 🚀)
 
 **Operator:** Magus Wulf
 

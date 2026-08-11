@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-10 17:51] - v0.1.18: Multi-Threaded HTTP Server & Lazy Video Preload Fixed 🩹⚡**
+
+📝 **Summary**
+1. **Multi-Threaded Server Upgrade:** Updated `server.py` to use `socketserver.ThreadingTCPServer` so concurrent requests for HTML, CSS, YouTube embeds, and media streaming serve asynchronously without single-threaded blocking.
+2. **Lazy Preloading:** Added `preload="none"` to `<video id="eclipse-video-360">` in `index.html` (v0.1.18) so browsers do not buffer the 11MB file on initial page load. 🐈 🩹
+
+---
+
 ### **[2026-08-10 17:48] - v0.1.17: Autoplay YouTube Short Teaser & Dual Video Showcase Deployed 🚀⚡**
 
 📝 **Summary**

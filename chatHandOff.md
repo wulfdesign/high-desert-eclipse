@@ -1,13 +1,14 @@
-# 📁 Chat Hand-Off: Autoplay YouTube Short Teaser & Dual Video Showcase Deployed (v0.1.17)
+# 📁 Chat Hand-Off: Multi-Threaded HTTP Server & Lazy Video Preload Fixed (v0.1.18)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **AUTOPLAY SHORT TEASER WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **MULTI-THREADED SERVER WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Dual Video Showcase Layout:** Built a 2-column video showcase in `index.html` featuring a vertical autoplay muted YouTube Short teaser (`9Xs3GKE8XIo`) alongside the main 4K 360° feature experience.
+1. **Multi-Threaded Server:** Converted `server.py` to `socketserver.ThreadingTCPServer` to resolve single-threaded HTTP request locks during media streaming.
+2. **Lazy Preloading:** Added `preload="none"` to `<video id="eclipse-video-360">` in `index.html`.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)
