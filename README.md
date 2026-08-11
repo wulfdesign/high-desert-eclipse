@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.20 (April 2024 Director's Journal Archive Integrated 🚀)
+**Current Version:** v0.1.21 (Profound 4-Card Story Grid & Battery Panic Lore Integrated 🚀)
 
 **Operator:** Magus Wulf
 

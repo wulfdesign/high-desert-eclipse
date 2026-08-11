@@ -8,6 +8,17 @@
 
 ---
 
+### **[2026-08-10 20:38] - v0.1.21: Profound 4-Card Story Grid & Battery Panic Lore Integrated 🚀🌄**
+
+📝 **Summary**
+1. **Narrative Elevation:** Expanded `index.html` (v0.1.21) to 4 profound, authentic story cards:
+   - 🚐 **Moving Heaven & Earth:** Borrowed loaner minivan from a friend whose mother passed away, driving into the Ochoco Wilderness.
+   - 🌄 **The Racing Lunar Shadow:** High-desert hilltop overlook watching the moon's shadow sweep across the countryside.
+   - ⚡ **Heart-Stopping Battery Panic:** Battery dying post-totality and discovering 3 days later it died 8 min *after* totality ended.
+   - 🎨 **Scintillating Ethereal Light:** Corona tentacles of ethereal light & transcendent frame-by-frame color grading. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 20:31] - v0.1.20: April 2024 Director's Journal Archive Integrated 🚀📜**
 
 📝 **Summary**
