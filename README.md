@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.26 (Future Remasters & Feedback Form Deployed 🚀)
+**Current Version:** v0.1.27 (u/wulfdesign Reddit Lore & Marketing Copy Farmed 🚀)
 
 **Operator:** Magus Wulf
 
