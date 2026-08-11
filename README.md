@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.34 (Complete 6-Card Balanced Story Grid Deployed 🚀)
+**Current Version:** v0.1.35 (Card 3 Multi-Camera Rig & 2K 360 Wording Refined 🚀)
 
 **Operator:** Magus Wulf
 
