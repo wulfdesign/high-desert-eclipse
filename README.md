@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.37 (Feedback Option Wording Updated to 'AI upscaled 8k Remaster' 🚀)
+**Current Version:** v0.1.38 (Feedback Textarea Placeholder Wording Refined 🚀)
 
 **Operator:** Magus Wulf
 
