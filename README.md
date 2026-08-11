@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.10 (Often Frame-by-Frame & Twilight Precision Refined 🚀)
+**Current Version:** v0.1.11 ($100k Equipment Contrast Refined in Camera Gamble 🚀)
 
 **Operator:** Magus Wulf
 
