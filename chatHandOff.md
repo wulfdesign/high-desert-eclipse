@@ -1,13 +1,14 @@
-# 📁 Chat Hand-Off: YouTube 360° Viewing Guidance & Direct Launch Buttons Deployed (v0.1.13)
+# 📁 Chat Hand-Off: Desert Icon Updated & 360 Embed Protocol Clarified (v0.1.14)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **360° PLAYBACK GUIDANCE WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **DESERT ICON & EMBED PROTOCOL WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **360° Guidance Notice Block:** Added a glassmorphic guidance card directly below the YouTube video card on `index.html` explaining desktop browser iframe 360° panning restrictions and offering 1-click buttons to open directly on YouTube or launch WebXR 360 mode.
+1. **Icon Alignment:** Changed Card 1 icon from ⛺ to 🏜️ on `index.html`.
+2. **360 Embed Clarification:** Addressed YouTube iframe WebGL 360 panning restrictions and explained native WebXR 360 alternatives.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

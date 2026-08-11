@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.13 (YouTube 360° Viewing Guidance & Interactive WebXR Integration 🚀)
+**Current Version:** v0.1.14 (Desert Icon Updated & 360 Embed Protocol Clarified 🚀)
 
 **Operator:** Magus Wulf
 

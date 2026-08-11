@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-10 17:28] - v0.1.14: Desert Icon Updated & 360 Embed Limits Clarified 🚀🏜️**
+
+📝 **Summary**
+1. **Icon Upgrade:** Updated Card 1 icon from ⛺ to 🏜️ on `index.html` (v0.1.14).
+2. **360 Embed Protocol:** Clarified YouTube iframe cross-origin WebGL drag restrictions and WebXR fallback strategy. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 17:24] - v0.1.13: YouTube 360° Viewing Guidance & Direct Launch Buttons Deployed 🚀📹**
 
 📝 **Summary**
