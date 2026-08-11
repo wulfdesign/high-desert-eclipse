@@ -15,5 +15,5 @@ This directory stores local static media assets (360° panorama images, video te
 ---
 
 ## 📂 Expected File Layout
-* `assets/high_desert_eclipse_360.mp4` (Optimized 10.5 MB 360 video clip)
+* `assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4` (Optimized 10.5 MB 360 video clip)
 * `assets/poster.jpg` (High-resolution preview thumbnail)

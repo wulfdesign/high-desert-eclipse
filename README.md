@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.15 (Assets Directory & Native 360 Video Player Deployed 🚀)
+**Current Version:** v0.1.16 (Exact Video Asset Filename Standardized 🚀)
 
 **Operator:** Magus Wulf
 

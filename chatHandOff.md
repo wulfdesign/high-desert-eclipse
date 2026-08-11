@@ -1,14 +1,13 @@
-# 📁 Chat Hand-Off: Assets Directory & Native 360 Video Player Deployed (v0.1.15)
+# 📁 Chat Hand-Off: Exact Video Asset Filename Standardized (v0.1.16)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **NATIVE 360 VIDEO PLAYER WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **EXACT VIDEO FILENAME WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Assets Directory & LFS Rules:** Created `assets/README.md` clarifying that files under 50 MB / 100 MB (like the 10.5 MB `.mp4`) do NOT require Git LFS and can be committed natively to Git.
-2. **Native 360 Video Player:** Configured A-Frame `<a-videosphere>` inside `index.html` to play `assets/high_desert_eclipse_360.mp4` natively with full 360° mouse drag panning!
+1. **Video Asset Link Standardized:** Updated `index.html` and `assets/README.md` to point directly to `assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4`.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

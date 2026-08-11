@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 17:38] - v0.1.16: Exact Video Asset Filename Standardized 🚀🎬**
+
+📝 **Summary**
+1. **Filename Alignment:** Updated `index.html` (v0.1.16) and `assets/README.md` to reference the exact filename `assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4`. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 17:35] - v0.1.15: Assets Directory & Native 360 Video Player Deployed 🚀📦**
 
 📝 **Summary**

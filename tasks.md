@@ -9,7 +9,7 @@ DO NOT mark any task as done (🏆 or [x]) until the Human-in-the-Loop (Magus Wu
 * **Status:** 🛠️ (In Progress) | 🧪 (Ready for QA) | 🧠 (HITL Action Needed) | 🩹 (Tech Debt) | 🏆 (Verified/Done)
 * **Attribution:** 🐈 (Hermes) | 🦞 (MugWort)
 
-**Version:** v0.1.15 (Assets Directory & Native 360 Video Player Deployed 📋)
+**Version:** v0.1.16 (Exact Video Asset Filename Standardized 📋)
 
 ---
 
