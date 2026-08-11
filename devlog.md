@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-11 16:26] - v0.1.42: Fail-Safe Hidden Iframe Google Form POST Deployed 🚀🎯**
+
+📝 **Summary**
+1. **Hidden Iframe Native POST:** Upgraded `index.html` (v0.1.42) to deploy a 0-pixel hidden iframe (`hidden_gform`) and native HTML form submission with Google Forms entry names (`entry.1423654106`, `entry.1920408180`, `entry.1077477439`, `entry.403347460`).
+2. **Guaranteed Delivery:** Eliminates CORS fetch restrictions, guaranteeing that browser form POSTs hit Google Forms and stream into Google Sheets while preserving native glassmorphic styling. 🐈 🛠️
+
+---
+
 ### **[2026-08-11 16:21] - v0.1.41: Google Forms Lead Capture Integration Complete 🚀📊**
 
 📝 **Summary**
