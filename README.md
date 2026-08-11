@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.23 (Interactive 360° Expedition Gallery & Multi-Scene WebXR Viewer Deployed 🚀)
+**Current Version:** v0.1.24 (Automatic VR Headset Mode UI & WebXR 6DoF Standardized 🚀)
 
 **Operator:** Magus Wulf
 

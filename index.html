@@ -743,7 +743,7 @@
         <div id="webxr-title-badge" style="position: absolute; top: 20px; left: 20px; z-index: 10001; background: rgba(7, 9, 14, 0.85); color: var(--accent-cyan); border: 1px solid var(--accent-cyan); padding: 0.6rem 1.2rem; border-radius: 10px; font-family: var(--font-title); font-weight: 700; font-size: 0.95rem; backdrop-filter: blur(10px);">
             WebXR 360° Scene
         </div>
-        <a-scene embedded style="height: 100%; width: 100%;">
+        <a-scene embedded vr-mode-ui="enabled: true" style="height: 100%; width: 100%;">
             <a-assets>
                 <video id="eclipse-video-360" src="assets/Total-Solar-Eclipse_360-4k-Time-lapse_1-3_from_High-Desert-Eclipse_injected.mp4" preload="none" loop crossorigin="anonymous" playsinline webkit-playsinline></video>
                 <img id="webxr-sky-img" src="">
