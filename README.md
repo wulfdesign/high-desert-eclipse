@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.38 (Feedback Textarea Placeholder Wording Refined 🚀)
+**Current Version:** v0.1.39 (SEO & AI Search Discovery Tags + Footer Title Updated 🚀)
 
 **Operator:** Magus Wulf
 
