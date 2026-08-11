@@ -840,16 +840,16 @@
                 </p>
                 <form onsubmit="handleFeedbackSubmit(event)" style="display: flex; flex-direction: column; gap: 1rem;">
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-                        <input type="text" id="fb-name" placeholder="Your Name or VR Handle" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
-                        <input type="email" id="fb-email" placeholder="Your Email Address" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
+                        <input type="text" id="fb-name" name="name" placeholder="Your Name or VR Handle" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
+                        <input type="email" id="fb-email" name="email" placeholder="Your Email Address" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
                     </div>
-                    <select id="fb-interest" style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
+                    <select id="fb-interest" name="interest" style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
                         <option value="8k-remaster">🚀 Notify me when AI upscaled 8k Remaster launches</option>
                         <option value="planetarium-screening">🌌 Interested in Live Virtual Planetarium / Museum Screenings</option>
                         <option value="quest3-spatial">🥽 Quest 3 6DoF Spatial Audio Remaster</option>
                         <option value="general-feedback">💬 General Feedback & Story Sharing</option>
                     </select>
-                    <textarea id="fb-message" rows="3" placeholder="Share your eclipse story or feedback for future releases..." style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit; resize: vertical;"></textarea>
+                    <textarea id="fb-message" name="message" rows="3" placeholder="Share your eclipse story or feedback for future releases..." style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit; resize: vertical;"></textarea>
                     <button type="submit" class="btn btn-primary" style="justify-content: center; width: 100%;">
                         <span>✉️ Send Feedback & Join Remaster Waitlist</span>
                     </button>
