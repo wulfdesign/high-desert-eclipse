@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: Multi-Threaded HTTP Server & Lazy Video Preload Fixed (v0.1.18)
+# 📁 Chat Hand-Off: Moon Shadow Racing & Hilltop Overlook Narrative Refined (v0.1.19)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **MULTI-THREADED SERVER WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **MOON SHADOW NARRATIVE WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Multi-Threaded Server:** Converted `server.py` to `socketserver.ThreadingTCPServer` to resolve single-threaded HTTP request locks during media streaming.
-2. **Lazy Preloading:** Added `preload="none"` to `<video id="eclipse-video-360">` in `index.html`.
+1. **Camera Gamble Card Refined:** Updated Card 2 in `index.html` with a vivid description of the high-desert hilltop overlook location, capturing the moon's shadow racing across the countryside and blotting out the sun.
+2. **Private Lore Synchronized:** Updated `private/docs/expedition_and_production_lore.md`.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

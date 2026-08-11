@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.18 (Multi-Threaded HTTP Server & Lazy Video Preload Fixed 🚀)
+**Current Version:** v0.1.19 (Moon Shadow Racing & Hilltop Countryside Overlook Narrative Refined 🚀)
 
 **Operator:** Magus Wulf
 
