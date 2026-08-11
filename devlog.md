@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 17:20] - v0.1.12: Explicit UpLiftVR.itch.io Store Links Standardized 🚀🏷️**
+
+📝 **Summary**
+1. **Store Link Standard:** Updated `index.html` (v0.1.12) and `private/campaign.md` (v0.1.10 sub-repo) to standardize all store button labels, links, and campaign text to explicitly display `UpLiftVR.itch.io`. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 17:18] - v0.1.11: $100k Equipment Contrast Refined in Camera Gamble 🚀📷**
 
 📝 **Summary**

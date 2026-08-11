@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.11 ($100k Equipment Contrast Refined in Camera Gamble 🚀)
+**Current Version:** v0.1.12 (Explicit UpLiftVR.itch.io Store Links Standardized 🚀)
 
 **Operator:** Magus Wulf
 
