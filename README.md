@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.36 (Card 3 Title & Row 2 Segue Updated, Row 3 Task Queued 🚀)
+**Current Version:** v0.1.37 (Feedback Option Wording Updated to 'AI upscaled 8k Remaster' 🚀)
 
 **Operator:** Magus Wulf
 

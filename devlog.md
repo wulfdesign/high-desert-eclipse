@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-11 14:38] - v0.1.37: Feedback Option Wording Updated 🚀✨**
+
+📝 **Summary**
+1. **Feedback Form Text:** Updated dropdown option in `#feedback` on `index.html` (v0.1.37) to *"🚀 Notify me when AI upscaled 8k Remaster launches"*. 🐈 🛠️
+
+---
+
 ### **[2026-08-11 14:35] - v0.1.36: Card 3 Title & Row 2 Segue Updated, Row 3 Task Queued 🚀⚡**
 
 📝 **Summary**
