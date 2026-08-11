@@ -1,14 +1,14 @@
-# 📁 Chat Hand-Off: Footer Version Badge & Press Outreach Grimoire Initialized (v0.1.25)
+# 📁 Chat Hand-Off: Future Remasters & Feedback Form Deployed (v0.1.26)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **PRESS OUTREACH & FOOTER BADGE WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **FEEDBACK FORM & TOMORROW'S SPRINT WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Footer Version Badge:** Added visible `Version v0.1.25` in subtle muted text to `index.html` footer.
-2. **Press Outreach Grimoire:** Created `private/press_outreach_strategy.md` outlining the targeted distribution strategy for Facebook astronomy groups, Reddit subreddits, WebXR boards, and YouTube description copy.
+1. **Feedback & Waitlist Form Deployed:** Added `#feedback` section on `index.html` allowing visitors to join the AI-Upscaled 8K Remaster waitlist, express interest in live planetarium/museum screenings, and submit story feedback.
+2. **Tomorrow's Action Checklist:** Created `private/tomorrows_action_checklist.md` providing a prioritized checklist for Itch.io PWYW setup, promo codes, YouTube description update, and targeted group posting.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

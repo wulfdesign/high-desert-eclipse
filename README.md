@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.25 (Footer Version Badge Added & Press Outreach Grimoire Initialized 🚀)
+**Current Version:** v0.1.26 (Future Remasters & Feedback Form Deployed 🚀)
 
 **Operator:** Magus Wulf
 

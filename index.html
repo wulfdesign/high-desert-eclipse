@@ -735,6 +735,37 @@
                 </p>
             </div>
         </section>
+
+        <!-- Feedback & AI 8K Remaster Waitlist Form -->
+        <section class="section-container" id="feedback">
+            <h2 class="section-title">
+                <span>✨ Future Remasters & Feedback Form</span>
+            </h2>
+            <div style="max-width: 800px; margin: 0 auto; background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 16px; padding: 2rem; backdrop-filter: blur(10px);">
+                <p style="text-align: center; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                    We are currently planning an <strong>AI-Upscaled 8K Remaster</strong>, spatial audio mix, and live virtual planetarium screenings for future eclipses! Let us know what features or screenings you'd like to see next.
+                </p>
+                <form onsubmit="handleFeedbackSubmit(event)" style="display: flex; flex-direction: column; gap: 1rem;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <input type="text" id="fb-name" placeholder="Your Name or VR Handle" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
+                        <input type="email" id="fb-email" placeholder="Your Email Address" required style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
+                    </div>
+                    <select id="fb-interest" style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit;">
+                        <option value="8k-remaster">🚀 Notify me when AI 8K Remaster launches</option>
+                        <option value="planetarium-screening">🌌 Interested in Live Virtual Planetarium / Museum Screenings</option>
+                        <option value="quest3-spatial">🥽 Quest 3 6DoF Spatial Audio Remaster</option>
+                        <option value="general-feedback">💬 General Feedback & Story Sharing</option>
+                    </select>
+                    <textarea id="fb-message" rows="3" placeholder="Share your eclipse story or ideas for future releases..." style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 0.8rem 1rem; color: #fff; font-family: inherit; resize: vertical;"></textarea>
+                    <button type="submit" class="btn btn-primary" style="justify-content: center; width: 100%;">
+                        <span>✉️ Send Feedback & Join Remaster Waitlist</span>
+                    </button>
+                    <div id="fb-success-msg" style="display: none; text-align: center; color: var(--accent-cyan); font-weight: 700; margin-top: 0.5rem;">
+                        🎉 Thank you! Your feedback has been recorded.
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- WebXR 360 Sphere Modal -->
@@ -841,6 +872,23 @@
             if (videoEl) {
                 videoEl.pause();
             }
+        }
+
+        function handleFeedbackSubmit(event) {
+            event.preventDefault();
+            const successMsg = document.getElementById('fb-success-msg');
+            if (successMsg) {
+                successMsg.style.display = 'block';
+            }
+            const name = document.getElementById('fb-name').value;
+            const email = document.getElementById('fb-email').value;
+            const interest = document.getElementById('fb-interest').value;
+            const msg = document.getElementById('fb-message').value;
+            console.log("Feedback recorded:", { name, email, interest, msg, timestamp: new Date().toISOString() });
+            event.target.reset();
+            setTimeout(() => {
+                if (successMsg) successMsg.style.display = 'none';
+            }, 6000);
         }
     </script>
 </body>

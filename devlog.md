@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-10 22:42] - v0.1.26: Future Remasters & Feedback Form Deployed 🚀✨**
+
+📝 **Summary**
+1. **Feedback & Waitlist Form:** Added `#feedback` section to `index.html` (v0.1.26) allowing visitors to join the AI-Upscaled 8K Remaster waitlist, express interest in live planetarium/museum screenings, and submit story feedback.
+2. **Tomorrow's Execution Checklist:** Created `private/tomorrows_action_checklist.md` (v0.1.15 sub-repo) providing a prioritized checklist for Itch.io PWYW setup, promo codes, YouTube description update, and targeted group posting. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 22:37] - v0.1.25: Footer Version Badge & Press Outreach Grimoire Initialized 🚀📢**
 
 📝 **Summary**
