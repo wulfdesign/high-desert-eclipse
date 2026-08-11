@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.35 (Card 3 Multi-Camera Rig & 2K 360 Wording Refined 🚀)
+**Current Version:** v0.1.36 (Card 3 Title & Row 2 Segue Updated, Row 3 Task Queued 🚀)
 
 **Operator:** Magus Wulf
 

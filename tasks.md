@@ -9,7 +9,7 @@ DO NOT mark any task as done (🏆 or [x]) until the Human-in-the-Loop (Magus Wu
 * **Status:** 🛠️ (In Progress) | 🧪 (Ready for QA) | 🧠 (HITL Action Needed) | 🩹 (Tech Debt) | 🏆 (Verified/Done)
 * **Attribution:** 🐈 (Hermes) | 🦞 (MugWort)
 
-**Version:** v0.1.35 (Card 3 Multi-Camera Rig Wording Refined 📋)
+**Version:** v0.1.36 (Card 3 Title & Row 2 Segue Updated, Row 3 Task Queued 📋)
 
 ---
 
@@ -30,6 +30,7 @@ DO NOT mark any task as done (🏆 or [x]) until the Human-in-the-Loop (Magus Wu
 ### 🌐 1. Public Landing Page & WebXR Viewer
 * [ ] 🏗️ 🔥 **Landing Page Skeleton:** Build the core HTML/CSS layout featuring the story of the crowdfunding, travel hurdles, editing timeline, and store links. 🐈
 * [ ] 🏗️ 🔥 **WebXR 360 Player:** Implement a basic A-Frame / Three.js 360-degree sphere viewer to play the optimized timelapse video directly in-headset. 🐈
+* [ ] ⚡ 🔥 **Story Grid Row 3 Expansion:** Mine Facebook/Reddit posts for lore and write Row 3 (3 cards: 7. Post-Production & Color Grading, 8. Film Festivals & Audience Reactions, 9. Multi-Platform WebXR & Store Distribution) following the "Then the real work began..." segue. 🐈
 * [x] 🧪 🔥 **Expedition Photo Gallery & 360 Stills:** Ingested 6 authentic 360 photo stills and 48.6MB spatial 360 video into an interactive landing page gallery and multi-scene WebXR sky viewer. 🧪 🐈
 
 ---

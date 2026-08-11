@@ -8,6 +8,15 @@
 
 ---
 
+### **[2026-08-11 14:35] - v0.1.36: Card 3 Title & Row 2 Segue Updated, Row 3 Task Queued 🚀⚡**
+
+📝 **Summary**
+1. **Card 3 Refinement:** Renamed Card 3 to *"The 4K 360 Gamble"* and updated opening line to *"With the then available 2K 360 cameras looking pixelated in VR..."*.
+2. **Row 2 Rearrangement & Segue:** Placed *"Scintillating Ethereal Light"* as Card 5 and moved *"Heart-Stopping Battery Panic"* to Card 6 (end of Row 2) with the concluding segue: *"Then the real work began..."*.
+3. **Row 3 Story Expansion Task:** Added task to `tasks.md` to mine Facebook/Reddit lore and craft Row 3 (Post-Production Editing, Film Festivals, and Platform Distribution). 🐈 🛠️
+
+---
+
 ### **[2026-08-11 14:28] - v0.1.35: Card 3 Multi-Camera Rig & 2K 360 Wording Refined 🚀📷**
 
 📝 **Summary**
