@@ -1,13 +1,14 @@
-# 📁 Chat Hand-Off: Automatic VR Headset Mode UI & WebXR Standardized (v0.1.24)
+# 📁 Chat Hand-Off: Footer Version Badge & Press Outreach Grimoire Initialized (v0.1.25)
 
 **Date:** 2026-08-10  
 **Operator:** Magus Wulf  
-**Status:** **VR HEADSET DETECTION WAITING FOR QA** 🚀🕶️🧪🐈
+**Status:** **PRESS OUTREACH & FOOTER BADGE WAITING FOR QA** 🚀🕶️🧪🐈
 
 ---
 
 ## 🏆 Alchemical Victories
-1. **Automatic VR Headset Detection:** Explicitly configured `vr-mode-ui="enabled: true"` on `<a-scene>` in `index.html` ensuring 1-click **"Enter VR"** stereoscopic rendering when opened in Meta Quest Browser or SteamVR.
+1. **Footer Version Badge:** Added visible `Version v0.1.25` in subtle muted text to `index.html` footer.
+2. **Press Outreach Grimoire:** Created `private/press_outreach_strategy.md` outlining the targeted distribution strategy for Facebook astronomy groups, Reddit subreddits, WebXR boards, and YouTube description copy.
 
 ## 📂 Project Anchors
 * **Core Tasks Ledger:** [tasks.md](file:///C:/Agents/a0-symbiot-ai/projects/high-desert-eclipse/tasks.md)

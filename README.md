@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.24 (Automatic VR Headset Mode UI & WebXR 6DoF Standardized 🚀)
+**Current Version:** v0.1.25 (Footer Version Badge Added & Press Outreach Grimoire Initialized 🚀)
 
 **Operator:** Magus Wulf
 

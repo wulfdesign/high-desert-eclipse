@@ -8,6 +8,14 @@
 
 ---
 
+### **[2026-08-10 22:37] - v0.1.25: Footer Version Badge & Press Outreach Grimoire Initialized 🚀📢**
+
+📝 **Summary**
+1. **Footer UI Version Badge:** Added `Version v0.1.25` in subtle muted text to `index.html` (v0.1.25) footer per versioning protocol.
+2. **Press & Social Outreach Blueprint:** Created `private/press_outreach_strategy.md` (v0.1.14 sub-repo) formulating a targeted multi-platform distribution strategy for Facebook astronomy groups, Reddit subreddits, WebXR boards, and YouTube description optimization. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 22:28] - v0.1.24: Automatic VR Headset Mode UI & WebXR Standardized 🚀🥽**
 
 📝 **Summary**
