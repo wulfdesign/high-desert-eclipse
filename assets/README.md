@@ -4,16 +4,15 @@
 
 ---
 
-## 🎬 Local Media & 360 Video Assets
-This directory stores local static media assets (360° panorama images, video teasers, and optimized WebXR clips).
+## 🎬 WebXR Video & 360 Photo Still Assets
 
-### 📹 Video Asset Storage Guidelines:
-* **File Size Limit:** GitHub allows standard git commits for files up to **100 MB** (warning at 50 MB).
-* **10.5 MB `.mp4` Status:** A 10.5 MB `.mp4` video fits well under GitHub's 50MB warning threshold and **does NOT require Git LFS** (Git Large File Storage).
-* **Native WebXR Streaming:** Storing the 10.5 MB `.mp4` here allows `<video>` and A-Frame (`<a-videosphere>`) in `index.html` to stream native 360° drag panning directly in the browser without YouTube iframe restrictions!
+### 📹 WebXR Video Stream (Spatial 360 Injected):
+* `Total-Solar-Eclipse_360-4k-Time-lapse_1-3_from_High-Desert-Eclipse_injected.mp4` (48.6 MB - 1 frame / 3 sec 4K spatial 360 timelapse video)
 
----
-
-## 📂 Expected File Layout
-* `assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4` (Optimized 10.5 MB 360 video clip)
-* `assets/poster.jpg` (High-resolution preview thumbnail)
+### 📷 360 Equirectangular Photo Stills:
+* `L.James_and_J.Jackson_Directors_RoadToTheEclipse_HiwayOverlook_360_0054_Stitch_XHC.JPG` (Highway Overlook 360 Still)
+* `L.James_and_J.Jackson_Directors_Boondock-Sunset_360_0104_Stitch_XHC.JPG` (Boondock Sunset Camp 360 Still)
+* `L.James_and_J.Jackson_Directors_360_0078_Backlit_Hillside_Sunset.jpg` (Backlit Hillside Sunset 360 Still)
+* `L.James_and_J.Jackson_Directors_360_0106_PreEclipse_HillTop_Group_OffSet.jpg` (Pre-Eclipse Hilltop Spectators 360 Still)
+* `L.James_and_J.Jackson_Directors_360_0117_PostEclipse_HillTop_Group_OffSet_Centered.jpg` (Post-Eclipse Hilltop Spectators 360 Still)
+* `L.James_and_J.Jackson_Directors_HDEthumb0126_Screenshot_Adjusted_PreTotality.jpg` (Pre-Totality Horizon Screenshot)

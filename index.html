@@ -471,6 +471,7 @@
         <nav class="nav-links">
             <a href="#countdown" class="nav-link">2026 Countdown</a>
             <a href="#watch" class="nav-link">Watch 360°</a>
+            <a href="#gallery" class="nav-link">360° Gallery</a>
             <a href="#story" class="nav-link">Expedition Story</a>
             <a href="#stores" class="nav-link">VR Stores</a>
         </nav>
@@ -593,6 +594,101 @@
             </div>
         </section>
 
+        <!-- Interactive 360° Expedition Gallery Section -->
+        <section class="section-container" id="gallery">
+            <h2 class="section-title">
+                <span>📸 Interactive Expedition 360° Gallery</span>
+            </h2>
+            <p style="text-align: center; color: var(--text-muted); max-width: 750px; margin: -1rem auto 2.5rem; font-size: 0.95rem; line-height: 1.6;">
+                Select any authentic 360° scene below to launch it inside our WebXR Sky Viewer. Drag 360° in any direction on desktop or look around in 6DoF/3DoF on VR headsets.
+            </p>
+            <div class="story-grid">
+                <!-- Gallery Item 1: 360 Time-Lapse Video -->
+                <div class="story-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="story-icon">🎬</div>
+                        <h3 class="story-title">4K 360° Solar Eclipse Time-Lapse</h3>
+                        <p class="story-text">
+                            The full 4K spatial 360 WebXR time-lapse video (1 frame / 3 sec, 48.6MB) capturing totality, the racing lunar shadow, and the 360° horizon sunset.
+                        </p>
+                    </div>
+                    <button onclick="launchWebXRMedia('video', 'assets/Total-Solar-Eclipse_360-4k-Time-lapse_1-3_from_High-Desert-Eclipse_injected.mp4', '🎬 4K 360° Solar Eclipse Time-Lapse Video')" class="btn btn-primary" style="margin-top: 1.2rem; width: 100%; justify-content: center;">
+                        <span>🥽 Launch 360 Video</span>
+                    </button>
+                </div>
+
+                <!-- Gallery Item 2: Boondock Sunset Camp -->
+                <div class="story-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="story-icon">⛺</div>
+                        <h3 class="story-title">Boondock Sunset Desert Camp</h3>
+                        <p class="story-text">
+                            360° panorama of Larry & Julia's off-grid boondock campsite in the Ochoco Wilderness during the week-long pre-eclipse camp out.
+                        </p>
+                    </div>
+                    <button onclick="launchWebXRMedia('image', 'assets/L.James_and_J.Jackson_Directors_Boondock-Sunset_360_0104_Stitch_XHC.JPG', '⛺ Boondock Sunset Desert Camp')" class="btn btn-cyan" style="margin-top: 1.2rem; width: 100%; justify-content: center;">
+                        <span>🥽 View 360° Camp</span>
+                    </button>
+                </div>
+
+                <!-- Gallery Item 3: Road to the Eclipse Highway Overlook -->
+                <div class="story-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="story-icon">🚗</div>
+                        <h3 class="story-title">Road to the Eclipse Overlook</h3>
+                        <p class="story-text">
+                            360° highway overlook photo captured along the remote mountain pass en route to the Central Oregon Totality zone.
+                        </p>
+                    </div>
+                    <button onclick="launchWebXRMedia('image', 'assets/L.James_and_J.Jackson_Directors_RoadToTheEclipse_HiwayOverlook_360_0054_Stitch_XHC.JPG', '🚗 Road to the Eclipse Overlook')" class="btn btn-cyan" style="margin-top: 1.2rem; width: 100%; justify-content: center;">
+                        <span>🥽 View 360° Overlook</span>
+                    </button>
+                </div>
+
+                <!-- Gallery Item 4: Backlit Hillside Sunset -->
+                <div class="story-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="story-icon">🌅</div>
+                        <h3 class="story-title">Backlit Hillside Sunset</h3>
+                        <p class="story-text">
+                            360° panoramic capture of the sun dipping behind the Ochoco high-desert ridge prior to totality morning.
+                        </p>
+                    </div>
+                    <button onclick="launchWebXRMedia('image', 'assets/L.James_and_J.Jackson_Directors_360_0078_Backlit_Hillside_Sunset.jpg', '🌅 Backlit Hillside Sunset')" class="btn btn-cyan" style="margin-top: 1.2rem; width: 100%; justify-content: center;">
+                        <span>🥽 View 360° Sunset</span>
+                    </button>
+                </div>
+
+                <!-- Gallery Item 5: Pre-Eclipse Hilltop Spectators -->
+                <div class="story-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="story-icon">👥</div>
+                        <h3 class="story-title">Pre-Eclipse Hilltop Spectators</h3>
+                        <p class="story-text">
+                            360° panorama showing the small gathering of spectators arriving on the remote hilltop ridge on the morning of August 21, 2017.
+                        </p>
+                    </div>
+                    <button onclick="launchWebXRMedia('image', 'assets/L.James_and_J.Jackson_Directors_360_0106_PreEclipse_HillTop_Group_OffSet.jpg', '👥 Pre-Eclipse Hilltop Spectators')" class="btn btn-cyan" style="margin-top: 1.2rem; width: 100%; justify-content: center;">
+                        <span>🥽 View Pre-Eclipse 360</span>
+                    </button>
+                </div>
+
+                <!-- Gallery Item 6: Post-Eclipse Hilltop Gathering -->
+                <div class="story-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="story-icon">☀️</div>
+                        <h3 class="story-title">Post-Eclipse Hilltop Overlook</h3>
+                        <p class="story-text">
+                            360° photo capturing the aftermath of totality as sunlight returned to the high-desert countryside.
+                        </p>
+                    </div>
+                    <button onclick="launchWebXRMedia('image', 'assets/L.James_and_J.Jackson_Directors_360_0117_PostEclipse_HillTop_Group_OffSet_Centered.jpg', '☀️ Post-Eclipse Hilltop Overlook')" class="btn btn-cyan" style="margin-top: 1.2rem; width: 100%; justify-content: center;">
+                        <span>🥽 View Post-Eclipse 360</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <!-- Story & Chronicle Grid -->
         <section class="section-container" id="story">
             <h2 class="section-title">
@@ -644,12 +740,16 @@
     <!-- WebXR 360 Sphere Modal -->
     <div id="webxr-modal">
         <button id="close-modal-btn" onclick="closeWebXRModal()">✕ Close WebXR View</button>
+        <div id="webxr-title-badge" style="position: absolute; top: 20px; left: 20px; z-index: 10001; background: rgba(7, 9, 14, 0.85); color: var(--accent-cyan); border: 1px solid var(--accent-cyan); padding: 0.6rem 1.2rem; border-radius: 10px; font-family: var(--font-title); font-weight: 700; font-size: 0.95rem; backdrop-filter: blur(10px);">
+            WebXR 360° Scene
+        </div>
         <a-scene embedded style="height: 100%; width: 100%;">
             <a-assets>
-                <video id="eclipse-video-360" src="assets/Total-Solar-Eclipse_360-4k-Time-lapse_from_High-Desert-Eclipse.mp4" preload="none" loop crossorigin="anonymous" playsinline webkit-playsinline></video>
-                <img id="eclipse-fallback-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Solar_eclipse_1999_4_NR.jpg/1920px-Solar_eclipse_1999_4_NR.jpg">
+                <video id="eclipse-video-360" src="assets/Total-Solar-Eclipse_360-4k-Time-lapse_1-3_from_High-Desert-Eclipse_injected.mp4" preload="none" loop crossorigin="anonymous" playsinline webkit-playsinline></video>
+                <img id="webxr-sky-img" src="">
             </a-assets>
-            <a-videosphere src="#eclipse-video-360" rotation="0 -90 0"></a-videosphere>
+            <a-videosphere id="webxr-videosphere" src="#eclipse-video-360" rotation="0 -90 0" visible="true"></a-videosphere>
+            <a-sky id="webxr-sky" src="#webxr-sky-img" rotation="0 -90 0" visible="false"></a-sky>
             <a-entity camera look-controls></a-entity>
         </a-scene>
     </div>
@@ -697,12 +797,39 @@
         setInterval(updateCountdown, 1000);
         updateCountdown();
 
-        function launchWebXRModal() {
-            document.getElementById('webxr-modal').style.display = 'block';
+        function launchWebXRMedia(type, srcPath, titleLabel) {
+            const modal = document.getElementById('webxr-modal');
+            const titleBadge = document.getElementById('webxr-title-badge');
+            const videosphere = document.getElementById('webxr-videosphere');
+            const sky = document.getElementById('webxr-sky');
+            const skyImg = document.getElementById('webxr-sky-img');
             const videoEl = document.getElementById('eclipse-video-360');
-            if (videoEl) {
-                videoEl.play().catch(err => console.log("360 Video autoplay waiting for interaction:", err));
+
+            if (titleBadge && titleLabel) {
+                titleBadge.innerText = titleLabel;
             }
+
+            if (type === 'video') {
+                if (sky) sky.setAttribute('visible', 'false');
+                if (videosphere) videosphere.setAttribute('visible', 'true');
+                if (videoEl) {
+                    if (srcPath) videoEl.src = srcPath;
+                    videoEl.play().catch(err => console.log("360 Video playback error/interaction needed:", err));
+                }
+            } else {
+                if (videoEl) videoEl.pause();
+                if (videosphere) videosphere.setAttribute('visible', 'false');
+                if (skyImg && sky) {
+                    skyImg.src = srcPath;
+                    sky.setAttribute('src', srcPath);
+                    sky.setAttribute('visible', 'true');
+                }
+            }
+            modal.style.display = 'block';
+        }
+
+        function launchWebXRModal() {
+            launchWebXRMedia('video', 'assets/Total-Solar-Eclipse_360-4k-Time-lapse_1-3_from_High-Desert-Eclipse_injected.mp4', '🎬 4K 360° Solar Eclipse Time-Lapse Video');
         }
 
         function closeWebXRModal() {

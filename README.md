@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.22 (Expedition Photo Gallery & 360 Stills Task Added 🚀)
+**Current Version:** v0.1.23 (Interactive 360° Expedition Gallery & Multi-Scene WebXR Viewer Deployed 🚀)
 
 **Operator:** Magus Wulf
 
