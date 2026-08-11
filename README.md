@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.27 (u/wulfdesign Reddit Lore & Marketing Copy Farmed 🚀)
+**Current Version:** v0.1.28 (Reddit Dump Lore & Marketing Agency Private Vault Spooled Up 🚀)
 
 **Operator:** Magus Wulf
 
