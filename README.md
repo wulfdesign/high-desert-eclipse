@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.21 (Profound 4-Card Story Grid & Battery Panic Lore Integrated 🚀)
+**Current Version:** v0.1.22 (Expedition Photo Gallery & 360 Stills Task Added 🚀)
 
 **Operator:** Magus Wulf
 

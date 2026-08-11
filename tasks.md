@@ -9,7 +9,7 @@ DO NOT mark any task as done (🏆 or [x]) until the Human-in-the-Loop (Magus Wu
 * **Status:** 🛠️ (In Progress) | 🧪 (Ready for QA) | 🧠 (HITL Action Needed) | 🩹 (Tech Debt) | 🏆 (Verified/Done)
 * **Attribution:** 🐈 (Hermes) | 🦞 (MugWort)
 
-**Version:** v0.1.21 (Profound 4-Card Story Grid Deployed 📋)
+**Version:** v0.1.22 (Expedition Photo Gallery & 360 Stills Task Added 📋)
 
 ---
 
@@ -30,6 +30,7 @@ DO NOT mark any task as done (🏆 or [x]) until the Human-in-the-Loop (Magus Wu
 ### 🌐 1. Public Landing Page & WebXR Viewer
 * [ ] 🏗️ 🔥 **Landing Page Skeleton:** Build the core HTML/CSS layout featuring the story of the crowdfunding, travel hurdles, editing timeline, and store links. 🐈
 * [ ] 🏗️ 🔥 **WebXR 360 Player:** Implement a basic A-Frame / Three.js 360-degree sphere viewer to play the optimized timelapse video directly in-headset. 🐈
+* [ ] 🏗️ 🔥 **Expedition Photo Gallery & 360 Stills:** Ingest and display flat and 360-degree expedition photos taken along the Ochoco wilderness journey into an interactive landing page gallery and WebXR sky viewer. 🐈
 * [ ] ⚡ 🔥 **Asset Delivery Optimization:** Set up progressive loading and compression targets for web-ready media delivery. 🐈
 
 ---

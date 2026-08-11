@@ -8,6 +8,13 @@
 
 ---
 
+### **[2026-08-10 20:42] - v0.1.22: Expedition Photo Gallery & 360 Stills Task Added 📋📷**
+
+📝 **Summary**
+1. **Task Ledger Update:** Added `Expedition Photo Gallery & 360 Stills` task to `tasks.md` (v0.1.22) to ingest flat and 360-degree expedition photos taken along the Ochoco wilderness journey into an interactive landing page gallery and WebXR sky viewer. 🐈 🛠️
+
+---
+
 ### **[2026-08-10 20:38] - v0.1.21: Profound 4-Card Story Grid & Battery Panic Lore Integrated 🚀🌄**
 
 📝 **Summary**
