@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.29 (Directors Credit & Exact GPS Location Lore Updated 🚀)
+**Current Version:** v0.1.30 (Interactive Google Maps Camera Outcrop & Topography Embedded 🚀)
 
 **Operator:** Magus Wulf
 
