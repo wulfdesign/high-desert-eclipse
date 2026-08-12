@@ -2,9 +2,17 @@
 
 > **Legend:**
 > 🚀 (Release/Major) | 🛠️ (Work Done) | 🧪 (Aligned/QA) | 🩹 (Fix) | 🧹 (Cleanup) | 📦 (Consolidation)
-> 🐈 (Hermes) | 🦞 (MugWort) | 🌌 (Portal) | 🛡️ (Security) | 👔 (The Herald)
+> 🐈 (Hermes) | 🦞 (MugWort) | 🌌 (Portal) | 🛡️ (Security) | 👔 (The Herald) | 🕊️ (Nadine)
 
 **⚠️ INSTRUCTIONS:** Always insert new entries **BELOW** this header block and **ABOVE** the previous entry. Maintain the alchemical formatting.
+
+---
+
+### **[2026-08-11 17:49] - v0.1.46: Live Personal Facebook Campaign Post Recorded 🚀🕊️**
+
+📝 **Summary**
+1. **Live Facebook URL:** Recorded published Personal Facebook post (`https://www.facebook.com/share/p/1EEzPCCujd/`) authored by `🕊️ Nadine`.
+2. **HITL Tasks Updated:** Updated `tasks.md` to reflect completed social launches and deferred `UpLiftVR.itch.io` PWYW setup in HITL section. 🐈 🛠️
 
 ---
 
