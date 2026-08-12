@@ -1,6 +1,6 @@
 # **🕶️ High Desert Eclipse**
 
-**Current Version:** v0.1.43 (Honeypot Anti-Spam Trap & Google Forms Integration Deployed 🚀)
+**Current Version:** v0.1.45 (Promo Poster Asset & Published LinkedIn Campaign Link Recorded 🚀)
 
 **Operator:** Magus Wulf
 
