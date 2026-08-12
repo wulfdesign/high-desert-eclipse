@@ -41,7 +41,10 @@ DO NOT mark any task as done (🏆 or [x]) until the Human-in-the-Loop (Magus Wu
 
 ---
 
-## 🧊 Icebox (Future Rituals)
+## 🧊 Icebox & Future Explorations
+* [ ] 🧊 **AI Agent Autofill vs. Honeypot Evaluation:** Evaluate if autonomous user browser agents get trapped by `website_hp` honeypot and refine field detection if necessary.
+* [ ] 🧊 **Quest 3 6DoF Spatial Audio Remaster:** Upgrade ambisonic audio positioning for Quest 3 spatial audio engine.
+* [ ] 🧊 **AI-Upscaled 8K Master Render:** Run AI upscaling pipeline on raw master files for future 8K headsets.
 * [ ] 🧊 **Interactive Narrative Elements:** Add hotspot markers inside the WebXR scene displaying text/image diaries from the trip.
 * [ ] 🧊 **Offline Player Build:** Package the WebXR player as an offline downloadable asset on itch.io for SteamVR users.
 
